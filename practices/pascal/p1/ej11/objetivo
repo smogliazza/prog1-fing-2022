@@ -1,0 +1,19 @@
+Considere las siguientes dos propiedades:
+i) ln(a^b) = b × ln(a)
+ii) e^ln(x) = x
+
+Utilizando dichas propiedades, el operador de multiplicacion (∗) y las funciones estandar
+de Pascal ln y exp escriba una expresion en Pascal que produzca el valor de a^b.
+Luego escriba un programa que evalue dicha expresion y emita el resultado en la salida estandar.
+Los valores para a y b seran leidos desde la entrada estandar.
+La descripcion de las funciones exp y ln se encuentra en el Apendice D del libro del curso,
+bajo el tıtulo Funciones y Procedimientos Estandar (pag. 584).
+
+Dadas la propiedades i, ii despejamos:
+a^b = e ^ ( b x ln(a) )
+Observacion:
+Con las propiedades matematicas podemos realizar la potencia de un numero en una linea con una 
+serie de operaciones, hacerlo con una iteracion (for o while) seria primitivo.
+
+fuente (: https://eva.fing.edu.uy/pluginfile.php/399449/mod_resource/content/5/P1-Practico1.pdf
+Prog 1 S2 2022
