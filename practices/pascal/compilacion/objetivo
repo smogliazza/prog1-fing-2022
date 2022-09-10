@@ -1,0 +1,19 @@
+Clásico programa de prueba "Hola mundo" para probar compilación.
+
+Compilar programa:
+fpc -Co -Cr -Miso -gl ruta_al_programa
+en este caso: fpc -Co -Cr -Miso -gl program.pas
+
+>fpc es el nombre del compilador Free Pascal.
+>hola.pas es el nombre del archivo que contiene el programa fuente (código Pascal).
+>-Co -Cr son opciones que le indican al compilador que debe generar el control de rangos y desborde de operaciones aritméticas.
+>-gl hace que el compilador en caso de error en tiempo de ejecución, indique la línea del código fuente donde se produce dicho error.
+>-Miso es una opción que hace que el compilador se aproxime más al Pascal estándar (el del libro).
+
+Ejecutar programa:
+./ruta_al_compilado
+en este caso: ./program
+
+
+fuente (: https://eva.fing.edu.uy/mod/page/view.php?id=58945
+Prog 1 S2 2022
